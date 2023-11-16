@@ -1,0 +1,209 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary--color: #FFF2F2;
+    --secondary--color: #FE0000;
+    --backround--color: #FDF9FA;
+    --white: #FFF;
+    --black: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary--color);
+    padding: 20px 20px;
+}
+
+
+
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+
+#nav-bar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#nav-bar li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #222;
+}
+
+#nav-bar>li:nth-child(1)>a {
+    padding: 8px 20px;
+    background-color: var(--secondary--color);
+    color: var(--white);
+    border-radius: 20px;
+}
+
+.cat {
+    float:right;
+    height: 300px;
+    width: 600px;
+    margin-right: 20px;
+}
+
+.first{
+    background-color: var(--primary--color);
+    height: 330px;
+
+}
+.first-paragraph{
+    border-top: 20px;
+    text-align: center;
+}
+
+#about {
+    margin: 30px 20px;
+    background-color: var(--white);
+}
+
+#about .about-us h1 {
+    font-size: 64px;
+    font-weight: 400;
+}
+
+#about .heading img {
+    width: 25%;
+    height: auto;
+}
+
+#about .heading .icons {
+    font-size: 16px;
+    color: #222;
+}
+
+#about .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .icons img {
+    width: 100px;
+    height: 100px;
+}
+
+#about .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+.help{
+    flex: 1; 
+    text-align: center; 
+
+}
+
+.help:not(:last-child) {
+    margin-right: 20px; 
+}
+
+.lone{
+    float: left;
+    
+}
+.dhoni{
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+.nil{
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.bottom{
+   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+}
+
+.bodi{
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+
+
+#services .bottom .phd {
+    margin-bottom: 40px; 
+}
+
+
+#services {
+   
+    padding: 40px; 
+}
+
+#services .container {
+    min-height: 300px;
+}
+
+#services .bottom {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.phd {
+    flex: 1; 
+    text-align: center; 
+}
+
+.phd:not(:last-child) {
+    margin-right: 50px; 
+}
+
+.head{
+    margin-bottom: 20px;
+}
+
